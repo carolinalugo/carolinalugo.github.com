@@ -1,0 +1,170 @@
+.container{
+	background: #3E5151;
+background: -webkit-linear-gradient(to right, #cad2c5, #84a98c);
+background: linear-gradient(to right, #2f3e46, #354f52, #52796f);
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.content{
+max-width: 950px;
+width: 100%;
+height: 100vh;
+background-color: #fff;
+box-shadow:0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0 ,0, 0.23);
+border-radius: 8px;
+position: relative;
+overflow: scroll;
+}
+
+.content {
+		padding: 1em;
+	}
+
+	td{
+		display: block;
+		width: 100%;
+
+	}
+
+	td:nth-of-type(1){
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #b7e4c7;
+
+}
+
+th{
+	display: none;
+}
+
+.position {
+background-color: #52796f;
+color:white;
+padding: 10px;
+border-radius: 8px;
+margin-right: 0.5em;
+}
+
+.actions {
+position: absolute;
+top: 1em;
+right: 1em;
+}
+
+.close{
+height: 40px;
+width: 40px;
+color: white;
+border-radius: 50px;
+background-color: #84a98c;
+display: inline-block;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+font-weight: 300;
+cursor: pointer;
+display: flex;
+justify-content:center;
+ align-items: center;
+
+}
+
+
+.title-item {
+  border-bottom: solid;
+  border width: 3px;
+  border-color: #84a98c;
+  padding-bottom: 1em;
+  font-size: 2em;
+}
+
+.adrees{
+font-weight: bold;
+color: #b7e4c7;
+font-size:0.9em;
+margin-top: 1em;
+display:inline-block;
+}
+
+.main-image{
+	float: left;
+	margin-right: 1em;
+	height: 250px;
+}
+
+html{
+font-family: 'Amatic SC', cursive;
+}
+
+a {
+	text-decoration: none;
+	color: #76c893;
+
+}
+
+a:hover{
+	text-decoration: none;
+	color:#b7e4c7;
+}
+
+img{
+	max-width: 100%
+
+}
+
+.title{
+	text-transform: uppercase;
+text-align: center;
+	}
+
+.fa-star{
+color: #52796f
+}
+
+
+	.paragraph{
+		line-height: 1.5em;
+	}
+
+	.table{
+		width: 100%;
+		border-spacing: 0;
+	}
+
+	.table td, .table th{
+		padding: 1em;
+		text-align: left;
+	}
+
+.table tr:nth-child(even) {
+background-color: #ced4da;
+
+}
+
+@media (min-width: 900px){
+	th{
+		display: table-cell;
+
+	}
+
+td{
+	width:auto;
+display: table-cell;
+}
+
+
+td:nth-of-type(1){
+font-size: 1em;
+}
+
+.content{
+	padding: 1.8em;
+}
+
+
+}
+@media (min-height: 550px) {
+	.content{
+		height: 500px;
+	}
+}
